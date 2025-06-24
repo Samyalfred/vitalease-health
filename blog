@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 Foods That Naturally Boost Your Immunity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #2e7d32;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    a {
+      color: #1e88e5;
+    }
+  </style>
+</head>
+<body>
+  <h1>5 Foods That Naturally Boost Your Immunity</h1>
+  <p>Your immune system is your body’s first line of defense — a silent warrior that protects you from illness, infection, and fatigue. But did you know that what you eat can either strengthen or weaken this natural shield?</p>
+
+  <p>In this post, we explore five powerful, science-backed foods that do more than just satisfy your hunger — they actively support your immune function, increase your resistance to illness, and help you stay energized and resilient all year long.</p>
+
+  <h2>1. Citrus Fruits</h2>
+  <p>Loaded with vitamin C, citrus fruits like oranges, lemons, and grapefruits help stimulate white blood cell production.</p>
+
+  <h2>2. Garlic</h2>
+  <p>Garlic has powerful anti-inflammatory and antibacterial properties. It’s great in soups and stir-fries.</p>
+
+  <h2>3. Ginger</h2>
+  <p>Ginger helps reduce inflammation and oxidative stress. It’s especially effective when consumed as tea.</p>
+
+  <h2>4. Spinach</h2>
+  <p>Spinach is packed with vitamin C and antioxidants. Light cooking enhances its nutrient absorption.</p>
+
+  <h2>5. Yogurt</h2>
+  <p>Yogurt provides probiotics that support a healthy gut — the foundation of a strong immune system.</p>
+
+  <p><strong>Bonus Tip:</strong> Want a daily supplement to support your immunity? Check out this <a href="https://www.amazon.com/dp/exampleproduct?tag=yourID">Top-Rated Immunity Booster</a>.</p>
+
+  <p>Keep your immune system strong with smart food choices!</p>
+</body>
+</html>
