@@ -1,28 +1,95 @@
-<!-- Blog Section Start -->
-<div class="section" id="posts" style="padding: 40px 20px; background-color: #f5f5f5;">
-  <h2 style="text-align: center; font-size: 28px; color: #1565c0;">Latest Blog Posts</h2>
-  <div class="blog-posts" style="display: grid; gap: 24px; margin-top: 30px; max-width: 1000px; margin-left: auto; margin-right: auto;">
-    
-    <!-- Blog Post 1 -->
-    <div class="card" style="background-color: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-      <h3 style="margin-top: 0;">
-        <a href="blog/post1.html" style="color: #0d47a1; text-decoration: none;">
-          5 Foods That Naturally Boost Your Immunity
-        </a>
-      </h3>
-      <p style="color: #444;">Discover the top five immune-boosting foods that can help protect your body year-round.</p>
-    </div>
-
-    <!-- Blog Post 2 -->
-    <div class="card" style="background-color: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-      <h3 style="margin-top: 0;">
-        <a href="blog/post2.html" style="color: #0d47a1; text-decoration: none;">
-          How Walking 30 Minutes a Day Can Transform Your Health
-        </a>
-      </h3>
-      <p style="color: #444;">Learn how a simple daily walk can drastically improve your physical and mental well-being.</p>
-    </div>
-
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitalease Health | Your Wellness Companion</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #1565c0;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(to right, #e3f2fd, #bbdefb);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: #0d47a1;
+    }
+    .hero p {
+      font-size: 20px;
+      color: #555;
+    }
+    footer {
+      background-color: #0d47a1;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vitalease Health</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#posts">Blog</a>
+      <a href="#subscribe">Subscribe</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero" id="home">
+    <h1>Welcome to Vitalease Health</h1>
+    <p>Your daily source of natural health tips and wellness inspiration</p>
+  </section>  <!-- Blog Section Start -->  <div class="section" id="posts" style="padding: 60px 20px; background: linear-gradient(to bottom right, #e3f2fd, #ffffff);">
+    <h2 style="text-align: center; font-size: 32px; color: #0d47a1; margin-bottom: 40px;">📚 Latest Health Blog Posts</h2>
+    <div class="blog-posts" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1000px; margin: auto;">
+      <div class="card" style="background-color: #ffffff; padding: 24px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
+        <h3 style="font-size: 22px;">
+          <a href="blog/post1.html" style="color: #1565c0; text-decoration: none;">🥦 5 Foods That Naturally Boost Your Immunity</a>
+        </h3>
+        <p>Discover the top five immune-boosting foods that can help protect your body year-round.</p>
+        <a href="blog/post1.html" style="display: inline-block; margin-top: 10px; background-color: #1976d2; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Read More</a>
+      </div><div class="card" style="background-color: #ffffff; padding: 24px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
+    <h3 style="font-size: 22px;">
+      <a href="blog/post2.html" style="color: #1565c0; text-decoration: none;">🚶‍♂️ How Walking 30 Minutes a Day Can Transform Your Health</a>
+    </h3>
+    <p>Learn how a simple daily walk can drastically improve your physical and mental well-being.</p>
+    <a href="blog/post2.html" style="display: inline-block; margin-top: 10px; background-color: #1976d2; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Read More</a>
   </div>
 </div>
-<!-- Blog Section End -->
+
+  </div>
+  <!-- Blog Section End -->  <!-- Newsletter Section -->  <section id="subscribe" style="padding: 60px 20px; background-color: #e8f5e9; text-align: center;">
+    <h2 style="font-size: 28px; color: #2e7d32;">Subscribe to Our Wellness Newsletter</h2>
+    <p style="color: #333;">Get free weekly health tips straight to your inbox</p>
+    <form name="newsletter" netlify>
+      <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; font-size: 16px; width: 280px; max-width: 90%;">
+      <button type="submit" style="background-color: #388e3c; color: #fff; padding: 10px 20px; border: none; font-size: 16px; border-radius: 6px; cursor: pointer;">Subscribe</button>
+    </form>
+  </section>  <!-- Simple Chatbot -->  <script>
+    window.intercomSettings = {
+      app_id: "your_app_id_here" // Replace with your actual chatbot ID if using Intercom or other
+    };
+  </script>  <!-- Footer -->  <footer id="contact">
+    <p>&copy; 2025 Vitalease Health. All rights reserved.</p>
+    <p>Developed by Samuel Alfred Ekanem</p>
+  </footer>
+</body>
+</html>
