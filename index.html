@@ -1,76 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your go-to health and wellness blog. Tips, products, and guides for a healthier life." />
   <title>Vitalease Health</title>
-  <meta name="description" content="Your trusted source for natural health and wellness tips." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    <!-- 👇 Chatbase Chatbot Code -->
-<script>
-  window.chatbaseConfig = {
-    chatbotId: "your-real-chatbot-id"
-  };
-</script>
-<script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
-<!-- 👆 End Chatbot Code -->
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: 'Inter', sans-serif;
       background-color: #f9f9f9;
       color: #333;
-    }
-    header {
-      background-color: #007B7F;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin-top: 0;
-    }
-    a {
-      color: #007B7F;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #777;
-      margin-top: 40px;
-    }
+    }header {
+  background-color: #00897b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(to right, #00c6a7, #1e90ff);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #00796b;
+}
+
+.products, .blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #00897b;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter {
+  background: #e0f2f1;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
   </style>
-</head>
-<body>
+</head><body>
   <header>
     <h1>Vitalease Health</h1>
-    <p>Your trusted source for natural health & wellness tips</p>
-  </header>
-
-  <main>
-    <h2>Welcome to Vitalease Health</h2>
-    <p>Explore our blog to learn how to improve your health naturally with simple lifestyle changes, vitamins, herbs, nutrition, and daily habits.</p>
-
-    <h3>Latest Blog Post:</h3>
-    <ul>
-      <li><a href="boost-immune-system.html">5 Natural Ways to Boost Your Immune System</a></li>
-    </ul>
-  </main>
-
-  <footer>
-    <p>© 2025 Vitalease Health</p>
-  </footer>
-</body>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Top Picks</a>
+      <a href="#posts">Blog</a>
+    </nav>
+  </header>  <div class="hero">
+    <h1>Welcome to Vitalease Health</h1>
+    <p>Your trusted blog for general health tips, wellness, and affiliate products</p>
+  </div>  <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>Vitalease Health is your go-to source for trustworthy health and wellness information. We provide curated advice, reviews, and resources to help you lead a vibrant and informed lifestyle.</p>
+  </div>  <div class="section" id="products">
+    <h2>Top Health Picks</h2>
+    <div class="products">
+      <div class="card">
+        <h3>Multivitamin Plus</h3>
+        <p>All-in-one supplement for daily health support.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <h3>Probiotic Boost</h3>
+        <p>Supports gut health and digestion.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="card">
+        <h3>Omega-3 Essentials</h3>
+        <p>Heart and brain support with pure fish oil.</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </div>  <div class="section" id="posts">
+    <h2>Latest Blog Posts</h2>
+    <div class="blog-posts">
+      <div class="card">
+        <h3>10 Easy Ways to Improve Your Health</h3>
+        <p>Start small and build lasting habits.</p>
+      </div>
+      <div class="card">
+        <h3>Best Foods for a Healthy Heart</h3>
+        <p>Discover the top heart-friendly superfoods.</p>
+      </div>
+    </div>
+  </div>  <div class="section newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Get free health tips, product reviews, and exclusive content directly in your inbox.</p>
+    <!-- You can connect Mailchimp or TinyLetter later -->
+    <input type="email" placeholder="Your email address" style="padding:10px;width:60%;max-width:300px;">
+    <button style="padding:10px 20px;margin-left:10px;background:#00796b;color:white;border:none;border-radius:5px;">Subscribe</button>
+  </div>  <footer>
+    <p>&copy; 2025 Vitalease Health. All rights reserved.</p>
+  </footer>  <!-- 👇 Chatbase Chatbot Code (replace YOUR-ID below) -->  <script>
+    window.chatbaseConfig = {
+      chatbotId: "YOUR-ID"
+    };
+  </script>  <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>  <!-- 👆 End Chatbot Code --></body>
 </html>
