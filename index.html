@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,6 +47,7 @@
   </style>
 </head>
 <body>
+
   <header>
     <h1>Vitalease Health</h1>
     <nav>
@@ -54,10 +56,14 @@
       <a href="#subscribe">Subscribe</a>
       <a href="#contact">Contact</a>
     </nav>
-  </header>  <section class="hero" id="home">
+  </header>
+
+  <section class="hero" id="home">
     <h1>Welcome to Vitalease Health</h1>
     <p>Your daily source of natural health tips and wellness inspiration</p>
-  </section>  <div class="section" id="posts" style="padding: 60px 20px; background: linear-gradient(to bottom right, #e3f2fd, #ffffff);">
+  </section>
+
+  <div class="section" id="posts" style="padding: 60px 20px; background: linear-gradient(to bottom right, #e3f2fd, #ffffff);">
     <h2 style="text-align: center; font-size: 32px; color: #0d47a1; margin-bottom: 40px;">📚 Latest Health Blog Posts</h2>
     <div class="blog-posts" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1000px; margin: auto;">
       <div class="card" style="background-color: #ffffff; padding: 24px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
@@ -82,14 +88,19 @@
         <a href="blog/paragis-extract.html" style="display: inline-block; margin-top: 10px; background-color: #1976d2; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Read More</a>
       </div>
     </div>
-  </div>  <section id="subscribe" style="padding: 60px 20px; background-color: #e8f5e9; text-align: center;">
+  </div>
+
+  <section id="subscribe" style="padding: 60px 20px; background-color: #e8f5e9; text-align: center;">
     <h2 style="font-size: 28px; color: #2e7d32;">Subscribe to Our Wellness Newsletter</h2>
     <p style="color: #333;">Get free weekly health tips straight to your inbox</p>
     <form name="newsletter" netlify>
       <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; font-size: 16px; width: 280px; max-width: 90%;">
       <button type="submit" style="background-color: #388e3c; color: #fff; padding: 10px 20px; border: none; font-size: 16px; border-radius: 6px; cursor: pointer;">Subscribe</button>
     </form>
-  </section>  <!-- Contact Us Floating Box -->  <div id="contact-box" style="position: fixed; bottom: 100px; right: 20px; z-index: 9999;">
+  </section>
+
+  <!-- Contact Us Floating Box -->
+  <div id="contact-box" style="position: fixed; bottom: 100px; right: 20px; z-index: 9999;">
     <button onclick="toggleContactPopup()" style="background-color: #1976d2; color: white; border: none; padding: 12px 16px; border-radius: 50px; font-size: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer;">
       📞 Contact Us
     </button>
@@ -98,26 +109,29 @@
       <p style="margin: 8px 0;"><strong>Email:</strong><br><a href="mailto:ekanemsalek@gmail.com" style="color: #1976d2;">ekanemsalek@gmail.com</a></p>
       <p style="margin: 8px 0;"><strong>WhatsApp:</strong><br><a href="https://wa.me/2349071076089" style="color: #1976d2;" target="_blank">+234 907 107 6089</a></p>
     </div>
-  </div>  <script>
+  </div>
+
+  <script>
     function toggleContactPopup() {
       var popup = document.getElementById('contact-popup');
       popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
     }
-  </script>  <!-- Chatbase Chatbot -->  <script>
+  </script>
+
+  <!-- ✅ Chatbase Chatbot Start -->
+  <script>
     window.chatbaseConfig = {
-      chatbotId: "xtDj-q39n7N8WYjpGSscF"
-    }
-  </script>  <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>  <footer id="contact">
+      chatbotId: "xtDj-q39n7N8WYjpGSscF",
+      enableChat: true
+    };
+  </script>
+  <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
+  <!-- ✅ Chatbase Chatbot End -->
+
+  <footer id="contact">
     <p>&copy; 2025 Vitalease Health. All rights reserved.</p>
     <p>Developed by Samuel A. Ekanem</p>
   </footer>
-  <!-- Chatbase Chatbot Start -->
-<script>
-  window.chatbaseConfig = {
-    chatbotId: "xtDj-q39n7N8WYjpGSscF"
-  };
-</script>
-<script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
-<!-- Chatbase Chatbot End -->
+
 </body>
 </html>
