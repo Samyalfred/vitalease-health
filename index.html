@@ -36,15 +36,6 @@
       font-size: 20px;
       color: #555;
     }
-    .section {
-      padding: 60px 20px;
-    }
-    .card {
-      background-color: #ffffff;
-      padding: 24px;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-    }
     footer {
       background-color: #0d47a1;
       color: #fff;
@@ -66,26 +57,30 @@
   </header>  <section class="hero" id="home">
     <h1>Welcome to Vitalease Health</h1>
     <p>Your daily source of natural health tips and wellness inspiration</p>
-  </section>  <!-- Blog Section Start -->  <div class="section" id="posts" style="background: linear-gradient(to bottom right, #e3f2fd, #ffffff);">
+  </section>  <!-- Blog Section Start -->  <div class="section" id="posts" style="padding: 60px 20px; background: linear-gradient(to bottom right, #e3f2fd, #ffffff);">
     <h2 style="text-align: center; font-size: 32px; color: #0d47a1; margin-bottom: 40px;">📚 Latest Health Blog Posts</h2>
-    <div class="blog-posts" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1000px; margin: auto;"><div class="card">
-    <h3><a href="blog/post1.html" style="color: #1565c0; text-decoration: none;">🥦 5 Foods That Naturally Boost Your Immunity</a></h3>
-    <p>Discover the top five immune-boosting foods that can help protect your body year-round.</p>
-    <a href="blog/post1.html" style="display: inline-block; margin-top: 10px; background-color: #1976d2; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Read More</a>
-  </div>
-
-  <div class="card">
-    <h3><a href="blog/post2.html" style="color: #1565c0; text-decoration: none;">🚶‍♂️ How Walking 30 Minutes a Day Can Transform Your Health</a></h3>
-    <p>Walking daily improves cardiovascular health, boosts mood, and strengthens the body. Learn how it transforms your well-being.</p>
+    <div class="blog-posts" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1000px; margin: auto;">
+      <div class="card" style="background-color: #ffffff; padding: 24px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
+        <h3 style="font-size: 22px;">
+          <a href="blog/post1.html" style="color: #1565c0; text-decoration: none;">🥦 5 Foods That Naturally Boost Your Immunity</a>
+        </h3>
+        <p>Discover the top five immune-boosting foods that can help protect your body year-round.</p>
+        <a href="blog/post1.html" style="display: inline-block; margin-top: 10px; background-color: #1976d2; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Read More</a>
+      </div><div class="card" style="background-color: #ffffff; padding: 24px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
+    <h3 style="font-size: 22px;">
+      <a href="blog/post2.html" style="color: #1565c0; text-decoration: none;">🚶‍♂️ How Walking 30 Minutes a Day Can Transform Your Health</a>
+    </h3>
+    <p>Learn the powerful physical and mental health benefits of walking daily and how to make it a habit.</p>
     <a href="blog/post2.html" style="display: inline-block; margin-top: 10px; background-color: #1976d2; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Read More</a>
   </div>
 
-  <div class="card">
-    <h3><a href="blog/paragis-extract.html" style="color: #1565c0; text-decoration: none;">🌿 The Secret Wonders of Paragis Grass Extract</a></h3>
-    <p>Learn how this centuries-old herb supports immunity, detoxification, and overall health—plus how to prepare it!</p>
+  <div class="card" style="background-color: #ffffff; padding: 24px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);">
+    <h3 style="font-size: 22px;">
+      <a href="blog/paragis-extract.html" style="color: #1565c0; text-decoration: none;">🌿 The Secret Wonders of Paragis Grass Extract</a>
+    </h3>
+    <p>Explore its centuries-old uses, healing powers, and how to prepare this powerful herbal remedy.</p>
     <a href="blog/paragis-extract.html" style="display: inline-block; margin-top: 10px; background-color: #1976d2; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Read More</a>
   </div>
-
 </div>
 
   </div>
@@ -96,12 +91,12 @@
       <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; font-size: 16px; width: 280px; max-width: 90%;">
       <button type="submit" style="background-color: #388e3c; color: #fff; padding: 10px 20px; border: none; font-size: 16px; border-radius: 6px; cursor: pointer;">Subscribe</button>
     </form>
-  </section>  <footer id="contact">
+  </section>  <!-- Footer -->  <footer id="contact">
     <p>&copy; 2025 Vitalease Health. All rights reserved.</p>
     <p>Developed by Samuel Alfred Ekanem</p>
   </footer>  <!-- Chatbase Chatbot Start -->  <script>
     window.chatbaseConfig = {
       chatbotId: "xtDj-q39n7N8WYjpGSscF"
-    };
+    }
   </script>  <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>  <!-- Chatbase Chatbot End --></body>
 </html>
