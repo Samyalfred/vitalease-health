@@ -117,6 +117,24 @@
     #contact-popup a {
       color: #1976d2;
     }
+    /* Chatbot iframe must always float above content */
+    #chatbot-iframe {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 10000;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    }
+    @media (max-width: 500px) {
+      #chatbot-iframe {
+        width: 98vw !important;
+        height: 70vh !important;
+        right: 1vw !important;
+        bottom: 1vw !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -193,15 +211,15 @@
     <p>Developed by Samuel A. Ekanem</p>
   </footer>
 
-  <!-- ✅ Chatbase Chatbot Start -->
-  <script>
-    window.chatbaseConfig = {
-      chatbotId: "xtDj-q39n7N8WYjpGSscF",
-      enableChat: true
-    };
-  </script>
-  <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
-  <!-- ✅ Chatbase Chatbot End -->
+  <!-- ✅ Chatbase Chatbot iFrame Start -->
+  <iframe
+    id="chatbot-iframe"
+    src="https://www.chatbase.co/chatbot-iframe/xtDj-q39n7N8WYjpGSscF"
+    width="400"
+    height="600"
+    allow="clipboard-write; microphone"
+  ></iframe>
+  <!-- ✅ Chatbase Chatbot iFrame End -->
 
 </body>
 </html>
