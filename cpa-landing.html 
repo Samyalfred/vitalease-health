@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exclusive Offer | Unlock Your Reward!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5faff;
+      margin: 0;
+    }
+    .container {
+      max-width: 430px;
+      margin: 48px auto;
+      background: #fff;
+      padding: 32px 24px;
+      border-radius: 16px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.13);
+    }
+    h1 {
+      color: #1976d2;
+      margin-top: 0;
+      font-size: 2rem;
+    }
+    h2 {
+      color: #388e3c;
+      font-size: 1.1rem;
+      margin-bottom: 22px;
+    }
+    .image {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .image img {
+      max-width: 140px;
+      border-radius: 9px;
+    }
+    .offer {
+      color: #333;
+      font-size: 1rem;
+      margin-bottom: 18px;
+    }
+    .cta-form input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #bbb;
+      margin-bottom: 14px;
+    }
+    .cta-form button {
+      width: 100%;
+      background: #1976d2;
+      color: #fff;
+      border: none;
+      padding: 14px;
+      font-size: 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    .cta-form button:hover {
+      background: #0d47a1;
+    }
+    .bullets {
+      margin: 18px 0;
+      padding-left: 20px;
+    }
+    .bullets li {
+      margin-bottom: 8px;
+      color: #444;
+    }
+    .trust {
+      font-size: 14px;
+      color: #555;
+      margin-top: 12px;
+      text-align: center;
+    }
+    @media (max-width: 500px) {
+      .container { margin: 10px; padding: 14px; }
+      h1 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <!-- Replace with your own image if needed -->
+      <img src="https://cdn.pixabay.com/photo/2017/01/30/13/51/checklist-2023731_960_720.png" alt="Reward Offer" />
+    </div>
+    <h1>Unlock Your Exclusive Reward!</h1>
+    <h2>Complete this quick step to access your bonus</h2>
+    <p class="offer">Get instant access to premium content, special discounts, or exclusive downloads. Just enter your email below:</p>
+    <form class="cta-form" name="cpa-offer" netlify>
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Unlock My Reward</button>
+    </form>
+    <ul class="bullets">
+      <li>✔️ Fast, free, and easy access</li>
+      <li>✔️ No cost, no credit card required</li>
+      <li>✔️ Your privacy is 100% protected</li>
+    </ul>
+    <div class="trust">
+      <p>We never share your email. Unsubscribe anytime.</p>
+      <p><strong>Trusted by thousands of users worldwide.</strong></p>
+    </div>
+  </div>
+</body>
+</html>
